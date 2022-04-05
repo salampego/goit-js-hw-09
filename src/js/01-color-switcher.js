@@ -12,7 +12,7 @@ function generateColor() {
 
   intervalId = setInterval(() => {
     body.style.background = getRandomHexColor();
-  }, 100);
+  }, 1000);
 }
 
 function stopGenerateColor() {
